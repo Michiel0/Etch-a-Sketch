@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font: 500;
+  font-size: 50px;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 85vh;
+}
+.grid-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 644px;
+  border: 2px solid black;
+  box-shadow: 0px 0px 10px rgb(24, 24, 24);
+}
+.btns {
+  display: flex;
+  flex-direction: column;
+  margin-right: 50px;
+  gap: 30px;
+  align-items: center;
+}
+button {
+  font-size: 24px;
+  padding: 10px 5px;
+  background: none;
+  width: 250px;
+  border-radius: 10px;
+  font-weight: 600;
+}
+.choice {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+.btn:active {
+  background-color: black;
+  color: white;
+}
